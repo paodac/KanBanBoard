@@ -19,6 +19,7 @@ export class User extends Model<UserAttributes, UserCreationAttributes> implemen
 
   // Hash the password before saving the user
   public async setPassword(password: string) {
+    console.log(password)
     const saltRounds = 10;
     this.password = await bcrypt.hash(password, saltRounds);
   }

@@ -3,6 +3,7 @@ import bcrypt from 'bcrypt';
 export class User extends Model {
     // Hash the password before saving the user
     async setPassword(password) {
+        console.log(password);
         const saltRounds = 10;
         this.password = await bcrypt.hash(password, saltRounds);
     }
