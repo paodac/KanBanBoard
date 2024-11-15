@@ -3,6 +3,8 @@ import { ApiMessage } from '../interfaces/ApiMessage';
 import Auth from '../utils/auth';
 
 const retrieveTickets = async () => {
+  console.log(Auth.getToken());
+  
   try {
     const response = await fetch(
       '/api/tickets/',
