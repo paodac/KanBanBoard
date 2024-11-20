@@ -50,8 +50,8 @@ server/
 ##  Deployment
 
 The app is deployed on Render:
-- **Backend**: [Link to backend](#)
-- **Frontend**: [Link to frontend](#)
+- **Deployed App**: [https://kanbanboard-gqxk.onrender.com](#)
+
 
 ##  Screenshots
 
