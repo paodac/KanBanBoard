@@ -17,19 +17,8 @@ A Kanban-style task management system developed as part of Challenge 14 of the B
 - **Sequelize** as ORM for PostgreSQL.
 - **Protected Routes** using JWT.
 
-```plaintext
-server/
-  ├── src/
-  │   ├── controllers/
-  │   ├── middleware/      # Authentication middleware
-  │   ├── models/          # Sequelize models
-  │   ├── routes/          # API routes
-  │   ├── seeds/           # Initial data
-  │   └── server.ts        # Main server configuration
-  └── .env.example         # Example environment variables
-  ```
 
-  ### Frontend
+### Frontend
 - **React.js** with functional components.
 - **Bootstrap** for styling the application.
 - **Dynamic interactions** with the backend.
@@ -55,6 +44,6 @@ The app is deployed on Render:
 
 ##  Screenshots
 
-![Login Screen](./screenshots/login.png)
-![Kanban Board](./screenshots/kanban-board.png)
+![Login Screen](./assets/KanbanLogin.png)
+![Kanban Board](./assets/KanbanBoard.png)
 
